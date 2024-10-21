@@ -60,7 +60,3 @@ The developer is not responsible for any issues or damages that arise from using
 ## Telegram Channel
 
 Stay updated by joining our [Telegram Channel](https://t.me/tricenc).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
