@@ -60,3 +60,4 @@ The developer is not responsible for any issues or damages that arise from using
 ## Telegram Channel
 
 Stay updated by joining our [Telegram Channel](https://t.me/tricenc).
+Stay updated by joining our [WhatsApp Channel]([https://t.me/tricenc](https://whatsapp.com/channel/0029ValNwp4I7BeEzI67Xp0i)).
