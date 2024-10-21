@@ -35,7 +35,7 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 ## 📥 Installation
 
 ### **1. Download the APK**
-   > Download the APK from the [Releases](./releases) folder.
+   > Download the APK from the [Releases](https://github.com/brendmung/abodellm/releases) folder.
 
 ### **2. Install the APK**
    > After downloading, install the APK file on your Android device.
