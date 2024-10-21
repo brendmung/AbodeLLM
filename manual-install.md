@@ -1,32 +1,36 @@
-# Manual Model Installation
+# Manual Model Installation Guide 📥
 
-Alternative method for installing AbodeLLM model manually.
+If the in-app download is too slow or having issues, follow these steps to manually install the AbodeLLM model.
 
-## Model Download
 
-Download model file from:
-```
-https://huggingface.co/brendmung/AbodeLLM/resolve/main/AbodeLLM_3.2.model
-```
+## 📋 Step-by-Step Guide
 
-## Installation Steps
+### 1. Download the Model File
 
-1. Download model file
-2. Copy to app directory:
+[![Download Model](https://img.shields.io/badge/Download-AbodeLLM_3.2.model-blue?style=for-the-badge)](https://huggingface.co/brendmung/AbodeLLM/resolve/main/AbodeLLM_3.2.model)
+
+
+### 2. Copy to App Folder
+
+Move the downloaded model file (AbodeLLM_x.x.model) to this location:
 ```
 Android/data/com.tricenc.abodellm/files
 ```
-3. Launch app
-4. Model should be detected automatically
 
-## Troubleshooting
+### 3. Launch the App
+
+- Open AbodeLLM
+- The app should automatically detect the model
+- Model will be loaded and ready to chat!
+
+## 🔍 Troubleshooting
 
 ### Common Issues
 
-- Incorrect file name
-- Wrong directory location
-- Model not detected
+- Verify the model file name matches exactly
+- Check that you've placed the file in the correct folder
+- If the app doesn't detect the model, try restarting it
 
-### Android 11+ Note
+### Android 11+ Users
 
-Additional storage permissions may be required to access Android/data folder.
+If you're using Android 11 or above, you might need to grant additional storage permissions to your file manager to access the Android/data folder.
