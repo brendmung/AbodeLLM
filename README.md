@@ -29,8 +29,7 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 |-----------|--------------|
 | Android   | 7.1 or higher |
 | RAM       | 2GB minimum (8GB recommended) |
-| Storage   | 800MB free space |
-| Processor | ARMv7/ARM64 |
+| Storage   | 800MB+ free space |
 
 ## 📥 Installation
 
