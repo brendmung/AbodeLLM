@@ -26,7 +26,7 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 
 ## 📋 Version Info
 
-- **Current Version**: `1.1.0b`
+- **Current Version**: `1.1.3b`
 - **Model Version**: `AbodeLLM_3.2` (LLaMA-based)
 - **Required Android**: `7.1+` (Nougat)
 
