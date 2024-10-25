@@ -20,8 +20,8 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 ## 📱 Screenshots
 
 <div align="center">
-<img src="screenshots/prompt.png" alt="Chat Interface" width="300"/>
 <img src="screenshots/settings.png" alt="Settings Screen" width="300"/>
+<img src="screenshots/prompt.png" alt="Chat Interface" width="300"/>
 </div>
 
 ## 📋 Version Info
