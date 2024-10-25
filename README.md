@@ -39,7 +39,7 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 ### 3. Model Download
    > When prompted, allow the app to download the model (~750MB).  
    > For offline installation, see the [Manual Installation Guide](manual-install.md).
-> 
+
 ### 4. Start Chatting
    > Once the model is installed, reopen the app and begin your conversation!
 <details>
