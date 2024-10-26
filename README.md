@@ -76,10 +76,6 @@ If you prefer manual installation of the model, follow the instructions in the <
 - Slower performance on devices with lower RAM or processing power
 - Internet connection required for initial model download (~750MB)
 
-## ⚖️ Disclaimer
-
-The developer is not responsible for any issues or damages that arise from using this app.
-
 ## 📢 Stay Updated
 
 Join our channels for updates and discussions:
