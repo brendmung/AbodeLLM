@@ -13,7 +13,7 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 
 - 🔒 **Offline AI Processing**: Chat without internet access.
 - 🛡️ **Privacy First**: All conversations are processed on-device.
-- 💭 **Context Awareness**: Optional feature to retain conversation context *(under development)*.
+- 💭 **Context Awareness**: Optional feature to retain conversation context *(beta)*.
 - ⚙️ **Adjustable Settings**: Customize response behavior and context length *(under development)*.
 - 📱 **Optimized for Mobile**: Designed to work efficiently on Android devices.
 
@@ -26,15 +26,17 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 
 ## 📋 Version Info
 
-- **Current Version**: `1.1.3b`
-- **Model Version**: `AbodeLLM_3.2` (LLaMA-based)
-- **Required Android**: `7.1+` (Nougat)
+- **Current Version**: `1.2.0`
+- **Models Available**
+  - `AbodeLLM_3.2` (LLaMA-3.2)
+  - `AbodeLLM_R1` (DeepSeek-R1-Distill-Qwen)
+- **Required Android**: `8.0+` (Nougat)
 
 ## 💻 Requirements
 
 | Component | Specification |
 |-----------|--------------|
-| Android   | 7.1 or higher |
+| Android   | 8.0 or higher |
 | RAM       | 2GB minimum (8GB recommended) |
 | Storage   | 800MB+ free space |
 
@@ -47,7 +49,8 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
    > After downloading, install the APK file on your Android device.
 
 ### 3. Model Download
-   > When prompted, allow the app to download the model (~750MB).  
+   > Select model to download. 
+   > When prompted, allow the app to download the model (~from 750MB).  
    > For offline installation, see the [Manual Installation Guide](manual-install.md).
 
 ### 4. Start Chatting
@@ -74,7 +77,7 @@ If you prefer manual installation of the model, follow the instructions in the <
 
 - Some responses may be incomplete
 - Slower performance on devices with lower RAM or processing power
-- Internet connection required for initial model download (~750MB)
+- Internet connection required for initial model download
 
 ## 📢 Stay Updated
 
