@@ -20,7 +20,7 @@ Android/data/com.tricenc.abodellm/files
 ### 3. Launch the App
 
 - Open AbodeLLM
-- The app should automatically detect the model
+- Select model
 - Model will be loaded and ready to chat!
 
 ## 🔍 Troubleshooting
