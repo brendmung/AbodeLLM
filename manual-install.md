@@ -12,7 +12,7 @@ If the in-app download is too slow or having issues, follow these steps to manua
 
 ### 2. Copy to App Folder
 
-Move the downloaded model file (AbodeLLM_x.x.model) to this location:
+Move the downloaded model file (AbodeLLM_xx.model) to your Android location:
 ```
 Android/data/com.tricenc.abodellm/files
 ```
