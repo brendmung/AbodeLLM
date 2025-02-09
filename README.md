@@ -30,7 +30,7 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 - **Models Available**
   - `AbodeLLM_3.2` (LLaMA-3.2)
   - `AbodeLLM_R1` (DeepSeek-R1-Distill-Qwen)
-- **Required Android**: `8.0+` (Nougat)
+- **Required Android**: `8.0+` (Oreo)
 
 ## 💻 Requirements
 
