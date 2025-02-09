@@ -1,13 +1,14 @@
 # Manual Model Installation Guide 📥
 
-If the in-app download is too slow or having issues, follow these steps to manually install the AbodeLLM model.
+If the in-app download is too slow or having issues, follow these steps to manually install AbodeLLM models.
 
 
 ## 📋 Step-by-Step Guide
 
-### 1. Download the Model File
+### 1. Download the Model Files (any)
 
 [![Download Model](https://img.shields.io/badge/Download-AbodeLLM_3.2.model-blue?style=for-the-badge)](https://huggingface.co/brendmung/AbodeLLM/resolve/main/AbodeLLM_3.2.model)
+
 [![Download Model](https://img.shields.io/badge/Download-AbodeLLM_R1.model-blue?style=for-the-badge)](https://huggingface.co/brendmung/AbodeLLM/resolve/main/AbodeLLM_R1.model)
 
 
