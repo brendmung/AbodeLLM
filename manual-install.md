@@ -11,6 +11,8 @@ If the in-app download is too slow or having issues, follow these steps to manua
 
 [![Download Model](https://img.shields.io/badge/Download-AbodeLLM_R1.model-blue?style=for-the-badge)](https://huggingface.co/brendmung/AbodeLLM/resolve/main/AbodeLLM_R1.model)
 
+[![Download Model](https://img.shields.io/badge/Download-AbodeLLM_S2.model-blue?style=for-the-badge)](https://huggingface.co/brendmung/AbodeLLM/resolve/main/AbodeLLM_S2.model)
+
 
 
 ### 2. Copy to App Folder
