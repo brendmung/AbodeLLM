@@ -20,7 +20,7 @@ An offline AI assistant built for Android devices, based on open source models l
 ## 📱 Screenshots
 
 <div align="center">
-<img src="screenshots/main.png" alt="Screenshots" width="1600"/>
+<img src="screenshots/main.png" alt="Screenshots"/>
 </div>
 
 ## 📋 Version Info
