@@ -7,7 +7,7 @@
 
 </div>
 
-An offline AI assistant built for Android devices, based on the LLaMA model. It runs entirely on your device, ensuring privacy by processing everything locally. No internet connection is required for chat operations.
+An offline AI assistant built for Android devices, based on open source models like LLaMA, Deepseek-R1-Qwen and SMOlLM2. It runs entirely on your device, ensuring privacy by processing everything locally. No internet connection is required for chat operations.
 
 ## ✨ Features
 
@@ -20,13 +20,12 @@ An offline AI assistant built for Android devices, based on the LLaMA model. It 
 ## 📱 Screenshots
 
 <div align="center">
-<img src="screenshots/settings.png" alt="Settings Screen" width="300"/>
-<img src="screenshots/prompt.png" alt="Chat Interface" width="300"/>
+<img src="screenshots/main.png" alt="Screenshots" width="300"/>
 </div>
 
 ## 📋 Version Info
 
-- **Current Version**: `1.2.0`
+- **Current Version**: `1.2.2`
 - **Models Available**
   - `AbodeLLM_3.2` (LLaMA-3.2)
   - `AbodeLLM_R1` (DeepSeek-R1-Distill-Qwen)
@@ -78,7 +77,6 @@ If you prefer manual installation of the model, follow the instructions in the <
 
 - Some responses may be incomplete
 - Slower performance on devices with lower RAM or processing power
-- Internet connection required for initial model download
 
 ## 📢 Stay Updated
 
