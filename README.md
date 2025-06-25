@@ -53,11 +53,10 @@ An offline AI assistant built for Android devices, based on open source models l
 
 ### 3. Model Download
    > Select your preferred model and variant to download. 
-   > When prompted, allow the app to download the model (~from 750MB).  
    > For offline installation, see the [Manual Installation Guide](manual-install.md).
 
 ### 4. Start Chatting
-   > Once the model is installed, reopen the app and begin your conversation!
+   > Once the model is downloaded, restart the app and begin your conversation!
 
 <details>
 <summary>📖 Manual Model Installation</summary>
@@ -69,7 +68,7 @@ If you prefer manual installation of the model, follow the instructions in the <
 
 The new Expert Mode provides advanced users with fine-grained control over model behavior:
 
-- **Temperature**: Control randomness in responses (0.0-2.0)
+- **Temperature**: Control randomness in responses (0.0-1.0)
 - **Top-K Sampling**: Limit vocabulary selection to top K tokens
 - **Top-P Sampling**: Nucleus sampling for more coherent outputs
 - **KV-Cache Management**: Optimize memory usage for longer conversations
