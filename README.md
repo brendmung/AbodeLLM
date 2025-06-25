@@ -7,14 +7,15 @@
 
 </div>
 
-An offline AI assistant built for Android devices, based on open source models like LLaMA, Deepseek-R1-Qwen and SMOlLM2. It runs entirely on your device, ensuring privacy by processing everything locally. No internet connection is required for chat operations.
+An offline AI assistant built for Android devices, based on open source models like LLaMA, Deepseek-R1-Qwen, SMOlLM2, Qwen3, and Google Gemma3. It runs entirely on your device, ensuring privacy by processing everything locally. No internet connection is required for chat operations.
 
 ## ✨ Features
 
 - 🔒 **Offline AI Processing**: Chat without internet access.
 - 🛡️ **Privacy First**: All conversations are processed on-device.
-- 💭 **Context Awareness**: Optional feature to retain conversation context *(beta)*.
-- ⚙️ **Adjustable Settings**: Customize response behavior and context length *(under development)*.
+- 💭 **Context Awareness**: Optional feature to retain conversation context.
+- ⚙️ **Expert Mode**: Advanced settings with adjustable temperature, top-k/top-p, kv-cache and token limits.
+- 🎯 **Multiple Model Variants**: Choose from various model variants.
 - 📱 **Optimized for Mobile**: Designed to work efficiently on Android devices.
 
 ## 📱 Screenshots
@@ -25,18 +26,20 @@ An offline AI assistant built for Android devices, based on open source models l
 
 ## 📋 Version Info
 
-- **Current Version**: `1.2.2`
+- **Current Version**: `2.0.0`
 - **Models Available**
   - `AbodeLLM_3.2` (LLaMA-3.2)
   - `AbodeLLM_R1` (DeepSeek-R1-Distill-Qwen)
   - `AbodeLLM_S2` (SmolLM2)
-- **Required Android**: `8.0+` (Oreo)
+  - `AbodeLLM_Q3` (Qwen3)
+  - `AbodeLLM_G3` (Google Gemma3)
+  - Multiple model variants available
 
 ## 💻 Requirements
 
 | Component | Specification |
 |-----------|--------------|
-| Android   | 8.0 or higher |
+| Android   | 8.0 (Oreo) or higher |
 | RAM       | 2GB minimum (8GB recommended) |
 | Storage   | 800MB+ free space |
 
@@ -49,7 +52,7 @@ An offline AI assistant built for Android devices, based on open source models l
    > After downloading, install the APK file on your Android device.
 
 ### 3. Model Download
-   > Select model to download. 
+   > Select your preferred model and variant to download. 
    > When prompted, allow the app to download the model (~from 750MB).  
    > For offline installation, see the [Manual Installation Guide](manual-install.md).
 
@@ -60,6 +63,34 @@ An offline AI assistant built for Android devices, based on open source models l
 <summary>📖 Manual Model Installation</summary>
 <br>
 If you prefer manual installation of the model, follow the instructions in the <a href="manual-install.md">Manual Installation Guide</a>.
+</details>
+
+## ⚙️ Expert Mode
+
+The new Expert Mode provides advanced users with fine-grained control over model behavior:
+
+- **Temperature**: Control randomness in responses (0.0-2.0)
+- **Top-K Sampling**: Limit vocabulary selection to top K tokens
+- **Top-P Sampling**: Nucleus sampling for more coherent outputs
+- **KV-Cache Management**: Optimize memory usage for longer conversations
+- **Token Limits**: Set maximum response length
+
+<details>
+<summary>🔓 How to Unlock Expert Mode</summary>
+<br>
+
+**To Enable Expert Mode:**
+1. Open the app and navigate to **Settings**
+2. **Long press** on the "Settings" title at the top
+3. Keep holding until a dialog appears confirming you've unlocked Expert Mode
+4. The advanced controls will now be visible in your settings
+
+**To Hide Expert Mode:**
+- Simply **long press** the "Settings" title again
+- Expert Mode will be hidden until you unlock it again
+
+> **Note**: Expert Mode is designed for advanced users who understand model parameters. Use caution when adjusting these settings as they can significantly impact performance and response quality.
+
 </details>
 
 ## ⚠️ Important Notes
