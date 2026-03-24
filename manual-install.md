@@ -19,7 +19,7 @@ If the in-app download is too slow or having issues, follow these steps to manua
 
 Move the downloaded model file (AbodeLLM_xx.model) to your Android location:
 ```
-Android/data/com.tricenc.abodellm/files
+Android/media/com.tricenc.abodellm/models
 ```
 
 ### 3. Launch the App
@@ -35,7 +35,3 @@ Android/data/com.tricenc.abodellm/files
 - Verify the model file name matches exactly
 - Check that you've placed the file in the correct folder
 - If the app doesn't detect the model, try restarting it
-
-### Android 11+ Users
-
-If you're using Android 11 or above, you might need to grant additional storage permissions to your file manager to access the Android/data folder.
