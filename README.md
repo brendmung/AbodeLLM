@@ -7,43 +7,49 @@
 
 </div>
 
-An offline AI assistant built for Android devices, based on open source models like LLaMA, Deepseek-R1-Qwen, SMOlLM2, Qwen3, and Google Gemma3. It runs entirely on your device, ensuring privacy by processing everything locally. No internet connection is required for chat operations.
+An offline AI assistant built for Android devices, based on open source models like LLaMA, DeepSeek R1 distill, SmolLM3, Qwen3, Gemma3, LFM2.5 and Ultravox. It runs entirely on your device, ensuring privacy by processing everything locally. No internet connection is required for chat operations.
 
-## ✨ Features
+## Features
 
-- 🔒 **Offline AI Processing**: Chat without internet access.
-- 🛡️ **Privacy First**: All conversations are processed on-device.
-- 💭 **Context Awareness**: Optional feature to retain conversation context.
-- ⚙️ **Expert Mode**: Advanced settings with adjustable temperature, top-k/top-p, kv-cache and token limits.
-- 🎯 **Multiple Model Variants**: Choose from various model variants.
-- 📱 **Optimized for Mobile**: Designed to work efficiently on Android devices.
+- **Offline AI Processing**: Chat without internet access.
+- **Privacy First**: All conversations are processed on-device.
+- **Multimodal Input**: Vision and audio input on supported models.
+- **Context Awareness**: Optional feature to retain conversation context.
+- **Expert Mode**: Advanced settings with adjustable temperature, top-k/top-p, kv-cache and token limits.
+- **Multiple Model Variants**: Choose from various model variants.
+- **Optimized for Mobile**: Designed to work efficiently on Android devices.
 
-## 📱 Screenshots
+## Screenshots
 
 <div align="center">
 <img src="screenshots/main.png" alt="Screenshots"  width="950"/>
 </div>
 
-## 📋 Version Info
+## Version Info
 
-- **Current Version**: `2.0.0`
+- **Current Version**: `3.0.0`
 - **Models Available**
-  - `AbodeLLM_3.2` (LLaMA-3.2)
-  - `AbodeLLM_R1` (DeepSeek-R1-Distill-Qwen)
-  - `AbodeLLM_S2` (SmolLM2)
-  - `AbodeLLM_Q3` (Qwen3)
-  - `AbodeLLM_G3` (Google Gemma3)
-  - Multiple model variants available
+  - `LLaMA 3.2` — 1B, 1B Uncensored, 3B
+  - `SmolLM2` — 135M, 1.7B, 1.7B Uncensored
+  - `SmolLM3` — 3B
+  - `SmolVLM2` — 256M, 500M, 2.2B *(Vision)*
+  - `DeepSeek R1` — 1.5B
+  - `Gemma 3` — 1B
+  - `Qwen3` — 1.7B, 4B, 4B Abliterated
+  - `Qwen3.5` — 0.8B, 2B *(Vision)*
+  - `LFM2.5` — 1.5B, 1.5B Thinking
+  - `LFM2.5-VL` — 1.5B *(Vision)*
+  - `Ultravox` — 1B *(Audio)*
 
-## 💻 Requirements
+## Requirements
 
 | Component | Specification |
 |-----------|--------------|
-| Android   | 8.0 (Oreo) or higher |
-| RAM       | 2GB minimum (8GB recommended) |
-| Storage   | 800MB+ free space |
+| Android   | 9 or higher |
+| RAM       | 3GB minimum (6GB+ recommended) |
+| Storage   | 1GB+ free space |
 
-## 📥 Installation
+## Installation
 
 ### 1. Download the APK
    > Download the APK from [Releases](https://github.com/brendmung/abodellm/releases)
@@ -52,63 +58,44 @@ An offline AI assistant built for Android devices, based on open source models l
    > After downloading, install the APK file on your Android device.
 
 ### 3. Model Download
-   > Select your preferred model and variant to download. 
-   > For offline installation, see the [Manual Installation Guide](manual-install.md).
+   > Go to the **Models** tab and select a model to download. Models with a `+ Vision` or `+ Audio` badge support optional projector download for multimodal input — tap the badge when ready.
 
 ### 4. Start Chatting
-   > Once the model is downloaded, restart the app and begin your conversation!
+   > Once the model is downloaded, start a new chat!
 
-<details>
-<summary>📖 Manual Model Installation</summary>
-<br>
-If you prefer manual installation of the model, follow the instructions in the <a href="manual-install.md">Manual Installation Guide</a>.
-</details>
+## Expert Mode
 
-## ⚙️ Expert Mode
-
-The new Expert Mode provides advanced users with fine-grained control over model behavior:
+Expert Mode provides advanced users with fine-grained control over model behavior:
 
 - **Temperature**: Control randomness in responses (0.0-1.0)
 - **Top-K Sampling**: Limit vocabulary selection to top K tokens
 - **Top-P Sampling**: Nucleus sampling for more coherent outputs
-- **KV-Cache Management**: Optimize memory usage for longer conversations
-- **Token Limits**: Set maximum response length
+- **KV-Cache Management**: Context window size — 512 to 32768 tokens
+- **Token Limits**: Maximum response length — 512 to 16384 tokens
+- **Model Info**: View model architecture, layers, context length, quantization, and license
+- **Import Model**: Load any external model (GGUF format supported), with optional projector for vision or audio input
 
 <details>
-<summary>🔓 How to Unlock Expert Mode</summary>
+<summary>How to Unlock Expert Mode</summary>
 <br>
 
 **To Enable Expert Mode:**
-1. Open the app and navigate to **Settings**
-2. **Long press** on the "Settings" title at the top
-3. Keep holding until a dialog appears confirming you've unlocked Expert Mode
-4. The advanced controls will now be visible in your settings
+1. Open the app and navigate to **Settings** (via the inference page menu)
+2. **Hold** the "Settings" title for 5 seconds until a confirmation dialog appears
+3. The advanced controls will now be visible in your settings
 
 **To Hide Expert Mode:**
-- Simply **long press** the "Settings" title again
-- Expert Mode will be hidden until you unlock it again
-
-> **Note**: Expert Mode is designed for advanced users who understand model parameters. Use caution when adjusting these settings as they can significantly impact performance and response quality.
+- Simply **hold** the "Settings" title again for 5 seconds
 
 </details>
 
-## ⚠️ Important Notes
+## Important Notes
 
-### Educational Use
-- This app is intended for educational and personal use only
-- Responses may be incomplete or inaccurate
-
-### Technical Limitations
-- Model generates a limited number of tokens at a time
-- May produce shorter responses
+- Uncensored and abliterated model variants have fewer content restrictions — use responsibly
+- KV cache changes apply on the next model load
 - Performance depends on device capabilities
 
-## 🐛 Known Issues
-
-- Some responses may be incomplete
-- Slower performance on devices with lower RAM or processing power
-
-## 📢 Stay Updated
+## Stay Updated
 
 Join our channels for updates and discussions:
 - [Telegram Channel](https://t.me/tricenc)
@@ -117,5 +104,5 @@ Join our channels for updates and discussions:
 ---
 
 <div align="center">
-Made with ❤️ for the AI community
+Simply Abode 🏡
 </div>
