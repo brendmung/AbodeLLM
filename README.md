@@ -7,16 +7,15 @@
 
 </div>
 
-An offline AI assistant built for Android devices, based on open source models like LLaMA, DeepSeek R1 distill, SmolLM3, Qwen3, Gemma3, LFM2.5 and Ultravox. It runs entirely on your device, ensuring privacy by processing everything locally. No internet connection is required for chat operations.
+AbodeLLM is an offline AI assistant built for Android devices, powered by various compact language models. It runs entirely on your device, ensuring privacy by processing everything locally. No internet connection is required for chat operations.
 
 ## Features
 
 - **Offline AI Processing**: Chat without internet access.
-- **Privacy First**: All conversations are processed on-device.
+- **Privacy First**: All prompts and conversations are processed on-device.
 - **Multimodal Input**: Vision and audio input on supported models.
-- **Context Awareness**: Optional feature to retain conversation context.
 - **Expert Mode**: Advanced settings with adjustable temperature, top-k/top-p, kv-cache and token limits.
-- **Multiple Model Variants**: Choose from various model variants.
+- **Multiple Model Families**: Choose from various model architectures, each with size variants.
 - **Optimized for Mobile**: Designed to work efficiently on Android devices.
 
 ## Screenshots
@@ -27,19 +26,23 @@ An offline AI assistant built for Android devices, based on open source models l
 
 ## Version Info
 
-- **Current Version**: `3.0.0`
-- **Models Available**
-  - `LLaMA 3.2` — 1B, 1B Uncensored, 3B
-  - `SmolLM2` — 135M, 1.7B, 1.7B Uncensored
-  - `SmolLM3` — 3B
-  - `SmolVLM2` — 256M, 500M, 2.2B *(Vision)*
-  - `DeepSeek R1` — 1.5B
-  - `Gemma 3` — 1B
-  - `Qwen3` — 1.7B, 4B, 4B Abliterated
-  - `Qwen3.5` — 0.8B, 2B *(Vision)*
-  - `LFM2.5` — 1.5B, 1.5B Thinking
-  - `LFM2.5-VL` — 1.5B *(Vision)*
-  - `Ultravox` — 1B *(Audio)*
+- **Current Version**: `3.1.0`
+- **Models Available (for download)**
+
+| Family | Capabilities |
+|--------|--------------|
+| **LLaMA 3.2** | Text-only |
+| **SmolLM2 / SmolLM3** | Text-only |
+| **SmolVLM2** | Vision + text |
+| **DeepSeek R1 Distill** | Text-only (reasoning) |
+| **Gemma 3 / Gemma 4** | Text + Audio + Vision (Gemma 4) |
+| **Qwen3 / Qwen3.5** | Qwen3.5 includes Vision |
+| **Ministral 3** | Vision + text |
+| **LFM2.5 / LFM2.5-VL** | Text (LFM2.5, includes "Thinking" variant) + Vision (LFM2.5-VL) |
+| **Ultravox** | Audio + text |
+| **Granite 3.3 / Granite 4.0** | Vision (Granite 3.3) + Text (Granite 4.0) |
+
+> Each family may offer multiple size variants (e.g., 1B, 3B). The app shows available downloads when you select a family.
 
 ## Requirements
 
@@ -58,7 +61,7 @@ An offline AI assistant built for Android devices, based on open source models l
    > After downloading, install the APK file on your Android device.
 
 ### 3. Model Download
-   > Go to the **Models** tab and select a model to download. Models with a `+ Vision` or `+ Audio` badge support optional projector download for multimodal input — tap the badge when ready.
+   > Go to the **Models** tab and select a model family to download. Models with a `+ Vision` or `+ Audio` badge support optional projector download for multimodal input — tap the badge when ready.
 
 ### 4. Start Chatting
    > Once the model is downloaded, start a new chat!
