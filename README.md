@@ -26,7 +26,7 @@ AbodeLLM is an offline AI assistant built for Android devices, powered by variou
 
 ## Version Info
 
-- **Current Version**: `3.1.0`
+- **Current Version**: `3.2.0`
 - **Models Available (for download)**
 
 | Family | Capabilities |
