@@ -40,7 +40,7 @@ AbodeLLM is an offline AI assistant built for Android devices, powered by variou
 | **Ministral 3** | Vision + text |
 | **LFM2.5 / LFM2.5-VL** | Text (LFM2.5, includes "Thinking" variant) + Vision (LFM2.5-VL) |
 | **Ultravox** | Audio + text |
-| **Granite 3.3 / Granite 4.0** | Vision (Granite 3.3) + Text (Granite 4.0) |
+| **Granite 3.3 / Granite 4.3** | Vision (Granite 3.3) + Text (Granite 4.3) |
 
 > Each family may offer multiple size variants (e.g., 1B, 3B). The app shows available downloads when you select a family.
 
